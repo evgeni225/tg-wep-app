@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Button } from "../Button/Button"
 import './Header.css'
 const tg = window.Telegram.WebApp
