@@ -9,7 +9,7 @@ export default function App() {
 
     useEffect(() => {
         tg.ready()
-    }, [])
+    }, [tg])
 
     return (
         <div>
