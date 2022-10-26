@@ -20,7 +20,7 @@ export const Form = () => {
         } else {
             tg.MainButton.show()
         }
-    }, [])
+    }, [country, street])
 
     const onChangeCounty = (e) => {
         setCountry(e.target.value)
